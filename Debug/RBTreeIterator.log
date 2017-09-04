@@ -1,0 +1,23 @@
+﻿生成启动时间为 2017/6/2 23:31:33。
+     1>项目“G:\c语言程序\RBTreeIterator\RBTreeIterator\RBTreeIterator.vcxproj”在节点 2 上(build 个目标)。
+     1>InitializeBuildStatus:
+         正在对“Debug\RBTreeIterator.unsuccessfulbuild”执行 Touch 任务。
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D _MBCS /Gm /EHsc /RTC1 /MDd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt Iterator.cpp
+         Iterator.cpp
+     1>g:\c语言程序\rbtreeiterator\rbtreeiterator\iterator.h(305): warning C4715: “RBTree<int,int>::Insert”: 不是所有的控件路径都返回值
+     1>g:\c语言程序\rbtreeiterator\rbtreeiterator\iterator.h(305): warning C4715: “RBTree<std::basic_string<char,std::char_traits<char>,std::allocator<char> >,std::basic_string<char,std::char_traits<char>,std::allocator<char> > >::Insert”: 不是所有的控件路径都返回值
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.exe" /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Debug\RBTreeIterator.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.pdb" /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.lib" /MACHINE:X86 Debug\Iterator.obj
+         LINK : 没有找到 G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.exe 或上一个增量链接没有生成它；正在执行完全链接
+         RBTreeIterator.vcxproj -> G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"G:\c语言程序\RBTreeIterator\Debug\RBTreeIterator.exe;#1" /manifest Debug\RBTreeIterator.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         正在删除文件“Debug\RBTreeIterator.unsuccessfulbuild”。
+         正在对“Debug\RBTreeIterator.lastbuildstate”执行 Touch 任务。
+     1>已完成生成项目“G:\c语言程序\RBTreeIterator\RBTreeIterator\RBTreeIterator.vcxproj”(build 个目标)的操作。
+
+生成成功。
+
+已用时间 00:00:01.02
